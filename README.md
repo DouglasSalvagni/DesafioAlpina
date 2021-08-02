@@ -18,7 +18,7 @@ Before starting, you will need to have the following tools installed on your mac
 - Fatal error: Uncaught Error: Call to undefined function ereg() in C:\xampp\htdocs\wp-content\themes\mycustomtheme\functions.php:76
 - Fatal error: Uncaught Error: Call to undefined function ereg_replace() in C:\xampp\htdocs\wp-content\themes\mycustomtheme\functions.php:79
 
-#### Solituins:
+#### Solutions:
 - [ereg()](https://stackoverflow.com/questions/54682040/fatal-error-uncaught-error-call-to-undefined-function-ereg#:~:text=use-,preg_match,-()%20instead%20of%20ereg)
 - [ereg_replace()](https://stackoverflow.com/questions/39469264/fatal-error-uncaught-error-call-to-undefined-function-ereg-replace-php-7#:~:text=%24jquery_click_hook%20%3D-,preg_replace,-(%22%5B%5EA-Za-z0))
 
