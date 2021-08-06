@@ -1,0 +1,51 @@
+{
+  "name": "codyframe-wp",
+  "version": "1.0.1",
+  "description": "CodyFrame WP",
+  "keywords": [
+    "wordpress",
+    "theme",
+    "codyframe",
+    "framework",
+    "codyhouse"
+  ],
+  "scripts": {
+    "gulp": "gulp",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "Amber Creative <info@ambercreative.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "autoprefixer": "^9.0.0",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.26.3",
+    "codyhouse-framework": "^2.5.0",
+    "css-loader": "^6.2.0",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-purgecss": "^3.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "postcss-calc": "^8.0.0",
+    "postcss-css-variables": "git+https://github.com/CodyHouse/postcss-css-variables.git",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "homepage": "https://codyhouse.co",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

@@ -1,4 +1,4 @@
-# MY CUSTOM WORDPRESS THEME
+# DESAFIO ALPINA
 
 ### Prerequisites
 
