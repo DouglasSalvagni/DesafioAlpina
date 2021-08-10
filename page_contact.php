@@ -15,7 +15,7 @@
 
         <?php the_post(); ?>
 
-        <section class="hero padding-y-xxl">
+        <section class="hero padding-y-lg">
             <div class="container max-width-adaptive-sm">
                 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                     <div class="entry-content">
@@ -26,7 +26,7 @@
             </div>
         </section>
 
-        <section class="hero padding-y-xxl">
+        <section class="hero padding-y-md">
             <div class="container max-width-adaptive-sm">
                 <?php echo do_shortcode('[contact-form-7 id="52" title="Formulário de contato 1"]'); ?>
             </div>

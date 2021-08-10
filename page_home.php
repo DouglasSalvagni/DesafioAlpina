@@ -121,12 +121,14 @@
                     <p>Get our monthly recap with the latest news, articles and resources.</p>
                 </div>
 
-                <form class="grid gap-xxs">
+                <?php echo do_shortcode('[contact-form-7 id="87" title="newsletter"]'); ?>
+
+                <!-- <form class="grid gap-xxs">
                     <input class="form-control" aria-label="Email" type="email" placeholder="Email Address">
                     <button class="btn btn--primary">Subscribe</button>
-                </form>
+                </form> -->
 
-                <p class="text-sm bg-success bg-opacity-20% padding-xs radius-md margin-top-xs" role="alert"><strong>✔ Success!</strong> Welcome aboard, friend!</p>
+                <!-- <p class="text-sm bg-success bg-opacity-20% padding-xs radius-md margin-top-xs" role="alert"><strong>✔ Success!</strong> Welcome aboard, friend!</p> -->
 
                 <div class="margin-top-sm">
                     <p class="color-contrast-medium text-sm">No spam. Unsubscribe anytime.</p>

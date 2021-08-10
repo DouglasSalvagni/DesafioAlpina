@@ -2,6 +2,7 @@
 
 require_once get_template_directory() . '/customPostType.php';
 require_once get_template_directory() . '/metabox.php';
+require_once get_template_directory() . '/taxonomies.php';
 
 // Make theme available for translation
 // Translations can be filed in the /languages/ directory
@@ -175,7 +176,7 @@ function register_styles()
 
     $theme_version = wp_get_theme()->get('Version');
 
-    wp_enqueue_style('style_root', get_template_directory_uri() . '/style.css', array(), $theme_version, "all");
+    wp_enqueue_style('style_root', get_template_directory_uri() . '/style.css', array(), '', "all");
     wp_enqueue_style('codyframe', get_template_directory_uri() . '/assets/css/style.css', array('webpack_bundle_css'), "1.0", "all");
     wp_enqueue_style('webpack_bundle_css', get_template_directory_uri() . '/assets/css/main.css', array(), "1.0", "all");
 }
@@ -218,5 +219,7 @@ function register_custom_menus()
 }
 
 add_action('init', 'register_custom_menus');
+
+
 
     ?>

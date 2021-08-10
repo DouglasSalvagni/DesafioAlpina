@@ -73,7 +73,7 @@
                         <li class="f-header__item"><a href="/about-us" class="f-header__link js-tab-focus">About</a></li>
                         <li class="f-header__item"><a href="/about-us" class="f-header__link">
                                 <span>Solutions</span>
-                                <svg class="f-header__dropdown-icon icon" aria-hidden="true" viewBox="0 0 12 12">
+                                <svg class="f-header__dropdown-icon " aria-hidden="true" viewBox="0 0 12 12">
                                     <path d="M6,9l4-5H2Z" />
                                 </svg>
                             </a>
@@ -86,7 +86,7 @@
                                 <li><a href="#0" class="f-header__dropdown-link">Sub Nav Item Five</a></li>
                             </ul>
                         </li>
-                        <li class="f-header__item"><a href="/resources" class="f-header__link" aria-current="page">Resources</a></li>
+                        <li class="f-header__item"><a href="/resources" class="f-header__link">Resources</a></li>
                         <li class="f-header__item"><a href="/pricing" class="f-header__link">Pricing</a></li>
                         <li class="f-header__item"><a href="/contact" class="f-header__link">Contact</a></li>
                     </ul>

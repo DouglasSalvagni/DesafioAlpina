@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+get_header();
+//the_terms é usado para a taxonomia personalizada
+the_terms($post - ID, 'topics', 'Topics: ', ', ', ' ');
+?>
 
 <div id="container">
     <div id="content">

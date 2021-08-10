@@ -28,3 +28,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 body {
         margin: 1.5em 15%;
 }
+
+.forceWidth {
+        width: 100% !important;
+}
